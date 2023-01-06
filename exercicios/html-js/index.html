@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .paragrafo{
+            color: red;
+        }
+        #invisible{
+            display: none;
+        }
+        span {
+            display: block;
+        }
+
+        button{
+            padding: 20px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            display: block;
+            margin-top: 50px;
+            /* transform: translate(50px , 100px); */
+        }
+
+    </style>
+</head>
+<body id="bodi">
+    <h1>Titulo</h1>
+    <p class="paragrafo" id="p1">paragrafo1
+        <span id="invisible">Outro texto</span>
+    </p>
+    <p class="paragrafo">paragrafo2</p>
+    <p>paragrafo3</p>
+
+    <h2 onclick="h2Click()" id="click">Clique em mim</h2> <span onclick="h2back()" id="btn">apareça novamente</span>
+
+    <input type="text" onchange="changeH1(this)">
+
+    <button onmouseover="onOver(this)"  onmouseout="onOut(this)"   >Sou um botão</button>
+
+    <button id="newbtn">Novo botao</button>
+
+    <script src="./sricpt.js"></script>
+</body>
+</html>

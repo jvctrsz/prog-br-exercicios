@@ -49,16 +49,23 @@ function criarAluno(nome,n1,n2,n3,n4) {
 
 
 
-var turma = [
-   criarAluno('João',8,8,9,8),
-   criarAluno('Igor',7,8,7,8)
+// var turma = [
+//    criarAluno('João',8,8,9,8),
+//    criarAluno('Igor',7,8,7,8)
 
-]
+// ]
 
-var aluno = turma[0];
+// var aluno = turma[0];
 
-for(var aluno of turma){
-    console.log(aluno.nome + ' - '+ aluno.media())
-}
+// for(var aluno of turma){
+//     console.log(aluno.nome + ' - '+ aluno.media())
+// }
 
+
+var d = new Date(1673029380734);
+
+
+
+console.log(d.setFullYear(2025))
+console.log(d);
 
