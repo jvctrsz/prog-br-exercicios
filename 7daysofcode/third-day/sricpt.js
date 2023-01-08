@@ -15,40 +15,20 @@ else if(choice == 'back-end' || choice == 'Back-End'){
    var userChoice = prompt('Você deseja se especializar em ' + valorUsuario + ' ou quer se tornar um desenvolvedor Full-Stack');
 } 
 else{
-   alert('valor errado')
+   alert('valor errado');
 }
 
 //escolha do usuario
 
 if(userChoice == 'especializar'){
-   var interesse = prompt('Continue estudando para você aprender mais e mais da sua linguagem escolhida!\nTem mais alguma linguagem que você tem interesse em aprender?')
+   var interesse = prompt('Continue estudando para você aprender mais e mais da sua linguagem escolhida!\nTem mais alguma linguagem que você tem interesse em aprender?');
 }
 
 else if(userChoice == 'full-stack'){
-   var interesse = prompt('Estude sua linguagem escolhida e estude outras linguagens para você se tornar FullStack!\n Tem mais alguma linguagem que você tem interesse em aprender?')
+   var interesse = prompt('Estude sua linguagem escolhida e estude outras linguagens para você se tornar FullStack!\n Tem mais alguma linguagem que você tem interesse em aprender?');
 }
 else {
-   alert('Escolha entre "especializar" ou "full-stack"')
+   alert('Escolha entre especializar ou full-stack')
 }
 
-
-
-
-
- //user choose your future
-
-// if (learnFront == 'react' || learnFront == 'vue'){
-//    var espcStudies = prompt('Você deseja se especializar em ' + learnFront + ' ou quer se tornar um desenvolvedor Full-Stack')
-// } 
-
-// if (learnBack == 'C#' || learnBack == 'Java'){
-//    var fullStudies = prompt('Você deseja se especializar em ' + learnBack + ' ou quer se tornar um desenvolvedor Full-Stack')
-// }
-
-// if (espcStudies == 'especializar'){
-//    alert('Continue estudando e você consiguira se especializar!!')
-// }
-
-// if (fullStudies == 'full-stack'){
-//    alert('Continue estudando sobre as duas áreas de linguagem!!')
-// }
+//loop area
