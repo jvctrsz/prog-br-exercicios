@@ -1,0 +1,15 @@
+main{
+    position: relative;
+}
+
+.app-background{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    background-image: url(./imagens/banner\ 1.svg);
+}
+
+.poster-1 img{
+    width: 650px;
+    height: 260px; 
+}

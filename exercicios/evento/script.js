@@ -46,14 +46,4 @@
 // console.log(b2)
 
 
-window.onload = function(){
-    let listaItens = localStorage.getItem('lista')
-    console.log(listaItens)
-}
-
-
-function armazenar(e){
-    let itens = [e.value];
-    localStorage.setItem('lista',itens);
-}
 
