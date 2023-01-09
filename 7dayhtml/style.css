@@ -1,15 +1,105 @@
-main{
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.app-background{
-    position: absolute;
-    width: 1280px;
-    height: 720px;
+body{
+    background-color: #000;
+}
+
+header{
+    max-width: 1431px;
+    max-height:1803px;
+    margin: auto;
     background-image: url(./imagens/banner\ 1.svg);
 }
 
-.poster-1 img{
-    width: 650px;
-    height: 260px; 
+.poster-banner{
+    /* background-image: url(./imagens/Menu.png); */
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poster-banner a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.menu-nav{
+    flex-direction: row;
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+.menu-nav-link{
+    font-size: 0.9em;
+}
+
+.menu-options{
+    color: #fff;
+    padding: 50px;
+}
+
+.menu-options span{
+    padding: 2.5px;
+}
+.background-container{
+    max-width: 400px;
+    padding: 70px;
+}
+
+.title-banner-container{
+    max-width: 400px;
+    max-height: 260px;
+}
+
+#img-banner-title{
+    width: 100%;
+}
+
+.p-title{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding: 20px 0px ;
+}
+
+.btn-link-title{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.btn-link-title span{
+    font-size: 1.5em;
+    transform: translate(0%, 27%);
+}
+
+.btn-link-title a:nth-child(1){
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    font-family:'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 20px ;
+    border-radius: 3px;
+    margin: 20px 15px 10px 0px;
+}
+.btn-link-title a:nth-child(2){
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(211, 211, 211, 0.288);
+    font-family:'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 20px ;
+    border-radius: 3px;
 }
