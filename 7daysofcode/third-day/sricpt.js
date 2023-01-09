@@ -26,9 +26,29 @@ if(userChoice == 'especializar'){
 
 else if(userChoice == 'full-stack'){
    var interesse = prompt('Estude sua linguagem escolhida e estude outras linguagens para você se tornar FullStack!\n Tem mais alguma linguagem que você tem interesse em aprender?');
-}
-else {
-   alert('Escolha entre especializar ou full-stack')
-}
+};
 
-//loop area
+
+
+
+//nao consegui chegar num resultado :(
+
+// function validar(){
+//    //logica para verificar o valor do prompt
+//    if(interesse == 'n'){
+//       return interesse
+//    }
+
+//    return false
+
+// }
+
+// var validation = validar();
+
+// // Enquanto a resposta estiver inválida, execute o bloco de código
+// while(validation === false){
+//    alert('Tente de novo...');
+//   // Note que devemos atribuir à resposta uma outra "tentativa",
+//   // já que após cada iteração (incorreta), o usuário deve tentar novamente.
+//   resp = validar();
+// }
