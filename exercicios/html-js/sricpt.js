@@ -32,6 +32,7 @@ function onOver(elemento){
 function onOut(elemento){
     elemento.style.backgroundColor = 'aquamarine'
     elemento.style.padding = '20px'
+    elemento.style.transition = '0.3s'
     elemento.style.transform = 'translate(0 , 0)'
     document.getElementById('bodi').style.backgroundColor = '#fff'
 }
