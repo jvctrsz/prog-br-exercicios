@@ -17,6 +17,8 @@ header{
     max-height:1803px;
     margin: auto;
     background-image: url(./imagens/banner\ 1.svg);
+    background-size: cover;
+    background-position: top center;
     box-shadow: inset 0px 70px 40px rgba(0, 0, 0, 0.836);
 }
 
@@ -30,8 +32,12 @@ header{
 
 .poster-banner a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(221, 221, 221);
     padding: 6px;
+}
+
+.poster-banner a:hover{
+    color: #fff;
 }
 
 .menu-nav{
@@ -47,10 +53,6 @@ header{
 .menu-options{
     color: #fff;
     padding: 50px;
-}
-
-.menu-options span{
-    padding: 2.5px;
 }
 /* header end */
 
@@ -91,7 +93,7 @@ header{
 .btn-link-title a:nth-child(1){
     text-decoration: none;
     color: #000;
-    background-color: #fff;
+    background-color: rgb(240, 238, 238);
     font-family:'Inter', sans-serif;
     font-size: 1em;
     font-weight: 700;
@@ -110,8 +112,15 @@ header{
     border-radius: 3px;
 }
 
+.btn-link-title a:nth-child(1):hover{
+    background-color: #fff;
+}
+.btn-link-title a:nth-child(2):hover{
+    background-color:rgba(211, 211, 211, 0.473);
+}
 #white-space{
     padding-top: 150px;
+    box-shadow: inset 0px -70px 70px rgba(0, 0, 0, 0.616);
 }
 
 /* title end */
