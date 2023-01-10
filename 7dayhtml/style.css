@@ -10,6 +10,8 @@ body{
     background-color: #000;
 }
 
+/* header */
+
 header{
     max-width: 1431px;
     max-height:1803px;
@@ -50,6 +52,9 @@ header{
 .menu-options span{
     padding: 2.5px;
 }
+/* header end */
+
+/* title start */
 .background-container{
     max-width: 400px;
     padding: 70px;
@@ -108,3 +113,5 @@ header{
 #white-space{
     padding-top: 150px;
 }
+
+/* title end */
