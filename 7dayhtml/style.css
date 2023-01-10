@@ -15,6 +15,7 @@ header{
     max-height:1803px;
     margin: auto;
     background-image: url(./imagens/banner\ 1.svg);
+    box-shadow: inset 0px 70px 40px rgba(0, 0, 0, 0.836);
 }
 
 .poster-banner{
@@ -102,4 +103,8 @@ header{
     font-weight: 700;
     padding: 10px 20px ;
     border-radius: 3px;
+}
+
+#white-space{
+    padding-top: 150px;
 }
