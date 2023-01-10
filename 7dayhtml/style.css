@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+@font-face {
+    font-family:'Bebas-Nue', sans-serif;
+    src: url(./imagens/BebasNeue.otf);
+}
 
 *{
     padding: 0;
@@ -40,7 +44,15 @@ header{
     color: #fff;
 }
 
+#font-logo{
+    color: red; 
+    font-size: 1.2em; 
+    font-family:'Bebas-Nue', sans-serif;
+    padding-right:32px;
+}
+
 .menu-nav{
+    font-family:'Inter', sans-serif;
     flex-direction: row;
     padding-left: 70px;
     font-weight: bold;
