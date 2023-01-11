@@ -144,10 +144,25 @@ header{
     max-width: 1431px;
     height: 200px;
     position: relative;
+    bottom: 50px;
+}
+
+.trilho-title{
+    font-family:'Inter', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 1.1em;
+}
+
+.wrapper-container::-webkit-scrollbar{
+    display: none;
 }
 
 .wrapper-container{
     overflow-x:auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .trilho-container{
@@ -158,18 +173,19 @@ header{
 }
 
 .item{
-    max-width: 285.8px;
-    padding:0px 2px ;
+    max-width: 280.8px;
+    padding:0px 5px ;
     
 }
 
 .item img{
     width: 100%;
-    padding-right: 5px;
+    padding-right:5px;
 }
 
 #next-arrow,
 #before-arrow{
+    cursor: pointer;
     position: absolute;
     font-size: 80px;
     color: #fff;
