@@ -3,7 +3,7 @@ const controls = document.querySelectorAll('.control');
 let currentItem = 0;
 const items = document.querySelectorAll('.item');
 
-const maxItems = items.length;
+const maxItems = items.length/2;
 
 controls.forEach(control => {
     control.addEventListener('click',() =>{
@@ -11,16 +11,16 @@ controls.forEach(control => {
         control.classList.contains('before-arrow')  
         
         if(isBefore){
-           currentItem -= 4;
+           currentItem -= 1;
         } else {
-            currentItem += 4;
+            currentItem += 1;
         }
 
         if(currentItem >= maxItems){
             currentItem = 0;
         }
         if(currentItem < 0){
-            currentItem = maxItems ;
+            currentItem = maxItems -1;
         }
 
         items[currentItem].scrollIntoView({
