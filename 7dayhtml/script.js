@@ -3,7 +3,7 @@ const controls = document.querySelectorAll('.control');
 let currentItem = 0;
 const items = document.querySelectorAll('.item');
 
-const maxItems = items.length;
+const maxItems = items.length/2;
 
 controls.forEach(control => {
     control.addEventListener('click',() =>{
@@ -11,7 +11,7 @@ controls.forEach(control => {
         control.classList.contains('before-arrow')  
         
         if(isBefore){
-            currentItem -= 1;
+           currentItem -= 1;
         } else {
             currentItem += 1;
         }
@@ -19,15 +19,45 @@ controls.forEach(control => {
         if(currentItem >= maxItems){
             currentItem = 0;
         }
-        if(currentItem < 0){
+        if(currentItem = 0){
             currentItem = maxItems -1;
         }
 
         items[currentItem].scrollIntoView({
-            // inline:'center',
+            inline:'start',
             behavior:'smooth'
         })
 
         console.log('control', isBefore, currentItem)
     })
 })
+
+
+// const maxItems = items.length/2;
+
+// controls.forEach(control => {
+//     control.addEventListener('click',() =>{
+//         const isBefore = 
+//         control.classList.contains('before-arrow')  
+        
+//         if(isBefore){
+//             currentItem -= 1;
+//         } else {
+//             currentItem += 1;
+//         }
+
+//         if(currentItem >= maxItems){
+//             currentItem = 0;
+//         }
+//         if(currentItem < 0){
+//             currentItem = maxItems -1;
+//         }
+
+//         items[currentItem].scrollIntoView({
+//             // inline:'center',
+//             behavior:'smooth'
+//         })
+
+//         console.log('control', isBefore, currentItem)
+//     })
+// })
