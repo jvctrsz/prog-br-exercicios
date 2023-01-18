@@ -46,3 +46,29 @@ function pause(){
 function play(){
     video.play()
 }
+
+let jogador1 = document.querySelector('#jogador1');
+let jogador2 = document.querySelector('#jogador2');
+
+let xInicial = 0;
+let yInicial = 0;
+
+function mudarJogadorPara(x,y){
+ 
+    
+   let posX = x + 'px';
+   let posY = y + 'px';
+   
+   jogador1.style.top = posX
+   jogador2.style.top = posX
+
+   jogador1.style.left = posY;
+   jogador2.style.left = posY; 
+
+}
+
+
+setInterval(function(){
+    mudarJogadorPara(xInicial++, yInicial++);
+
+}, 500)

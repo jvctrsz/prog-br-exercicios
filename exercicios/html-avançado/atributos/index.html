@@ -41,6 +41,30 @@
             transform: translateY(-100%);
         }
 
+        .tela{
+            background-color: bisque;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        .quadrado{
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            position: absolute;
+        }
+        .quadrado:nth-child(2){
+            width: 20px;
+            height: 20px;
+            right:0;
+            background-color: green;
+            position: absolute;
+        }
+
+        #tela{
+            /* background-color: aqua; */
+        }
     </style>
 </head>
 <body>    
@@ -60,9 +84,18 @@
         <img class="btn" onclick="play()" src="./images/play-button.png">
     </div>
 </div>
+<div class="tela">
+    <div id="jogador1" class="quadrado">
 
+    </div>
+    <div id="jogador2" class="quadrado">
 
+    </div>   
+</div>
+
+<canvas id="tela" width="500px" height="500px"></canvas>
 
 <script src="./script.js"></script>
+<script src="./script2.js"></script>
 </body>
 </html>
